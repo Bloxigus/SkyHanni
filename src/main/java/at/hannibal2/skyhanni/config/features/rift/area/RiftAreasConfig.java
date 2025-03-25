@@ -40,7 +40,7 @@ public class RiftAreasConfig {
 //        public VillagePlazaConfig villagePlaza = new VillagePlazaConfig();
 
     @Expose
-    @ConfigOption(name = "Living Cave", desc = "")
+    @ConfigOption(name = "Living Metal Cave", desc = "")
     @Accordion
     public LivingCaveConfig livingCave = new LivingCaveConfig();
 
@@ -54,8 +54,8 @@ public class RiftAreasConfig {
     @Accordion
     public StillgoreChateauConfig stillgoreChateau = new StillgoreChateauConfig();
 
-       @Expose
-       @ConfigOption(name = "Mountaintop", desc = "")
-       @Accordion
-       public MountaintopConfig mountaintop = new MountaintopConfig();
+    @Expose
+    @ConfigOption(name = "Mountaintop", desc = "")
+    @Accordion
+    public MountaintopConfig mountaintop = new MountaintopConfig();
 }
